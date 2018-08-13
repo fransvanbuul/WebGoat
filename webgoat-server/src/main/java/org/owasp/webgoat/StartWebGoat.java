@@ -27,6 +27,7 @@ package org.owasp.webgoat;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * Main entry point, this project is here to get all the lesson jars included to the final jar file
@@ -35,6 +36,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2/21/17
  */
 @SpringBootApplication
+@ComponentScan({"org.owasp.webgoat", "tech.vanbuul.webgoatplus"})
 @Slf4j
 public class StartWebGoat {
 
