@@ -123,6 +123,7 @@
         <axis-jaxrpc.version>1.4</axis-jaxrpc.version>
         <axis-saaj.version>1.4</axis-saaj.version>
         <axis.version>1.4</axis.version>
+        <axon.version>3.3.3</axon.version>
         <build-helper-maven-plugin.version>1.9.1</build-helper-maven-plugin.version>
         <cobertura-maven-plugin.version>2.7</cobertura-maven-plugin.version>
         <commons-collections.version>3.2.1</commons-collections.version>
@@ -166,6 +167,7 @@
         <tomcat7-maven-plugin.version>2.3-SNAPSHOT</tomcat7-maven-plugin.version>
         <versioneye-maven-plugin.version>3.5.1</versioneye-maven-plugin.version>
         <wsdl4j.version>1.6.3</wsdl4j.version>
+        <xstream.version>1.4.10</xstream.version>
     </properties>
 
     <modules>
